@@ -38,7 +38,7 @@ Minha atuação é voltada para a concepção e implementação de **sistemas di
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="left">🛡️ <a href="https://github.com/Coelho-G-Dev/authguard">AuthGuard — Enterprise Auth Microservice</a></h3>
+      <h3 align="left">🛡️ <a href="https://github.com/Coelho-G-Dev/auhthguard">AuthGuard — Enterprise Auth Microservice</a></h3>
       <p>
         Microsserviço de autenticação, identidade e autorização de padrão corporativo, desenhado com arquitetura limpa e alta resiliência.
       </p>
