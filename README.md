@@ -26,7 +26,7 @@ Dedico meus estudos e projetos à construção de **microsserviços, fluxos orie
 
 Alio o aprendizado contínuo em tecnologia à experiência prévia liderando equipes e processos operacionais sob ritmo acelerado, trazendo senso de prioridade, responsabilidade e resiliência na resolução de problemas técnicos.
 
-- 🎓 **Formação Acadêmica**: Ciência e Tecnologia (BICT) — UFMA
+- 🎓 **Formação Acadêmica**: Ciência e Tecnologia (BICT) — UFMA.
 - 🏆 **Formações & Especializações**:
   - **Oracle Next Education (ONE)** — Trilha Back-End com Java
   - **Oracle Next Education (ONE)** — Trilha de Inteligência Artificial & Engenharia de Prompts
