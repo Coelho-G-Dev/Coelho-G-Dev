@@ -12,7 +12,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel%20Coelho-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-coelho-7184a32a3)
 [![Portfolio](https://img.shields.io/badge/Portf%C3%B3lio-Online-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-next-flax-seven.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Coelho--G--Dev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Coelho-G-Dev)
-[![Email](https://img.shields.io/badge/Email-Contato%20Profissional-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielcoelho.contato@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contato%20Profissional-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielbiellosousa@gmail.com)
 
 </div>
 
@@ -231,7 +231,7 @@ Estou sempre aberto a trocar ideias sobre **engenharia de software, arquitetura 
 - 💼 **LinkedIn**: [linkedin.com/in/gabriel-coelho-7184a32a3](https://www.linkedin.com/in/gabriel-coelho-7184a32a3)
 - 🌐 **Portfólio**: [portfolio-next-flax-seven.vercel.app](https://portfolio-next-flax-seven.vercel.app/)
 - 💻 **GitHub**: [@Coelho-G-Dev](https://github.com/Coelho-G-Dev)
-- 📬 **E-mail**: [gabrielcoelho.contato@gmail.com](mailto:gabrielcoelho.contato@gmail.com)
+- 📬 **E-mail**: [gabrielbiellosousa@gmail.com](mailto:gabrielbiellosousa@gmail.com)
 
 <div align="center">
   <sub>Construindo sistemas confiáveis com código limpo, segurança e alta performance. 🚀</sub>
