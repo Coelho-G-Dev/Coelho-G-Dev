@@ -4,7 +4,7 @@
 ### **Back-End Software Engineer**
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=620&lines=Back-End+Engineer+%7C+Node.js+%26+TypeScript;Microsservi%C3%A7os+%7C+RabbitMQ+%7C+Redis+%7C+PostgreSQL;Arquiteturas+Resilientes+%26+Event-Driven+(EDA);APIs+Escal%C3%A1veis%2C+TDD+%26+Alta+Disponibilidade" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=620&lines=Back-End+Engineer+%7C+Node.js+%26+TypeScript;Microsservi%C3%A7os+%7C+RabbitMQ+%7C+Redis+%7C+PostgreSQL;Arquiteturas+RAG+%7C+FastAPI+%26+pgvector;Arquiteturas+Resilientes+%26+Event-Driven+(EDA);APIs+Escal%C3%A1veis%2C+TDD+%26+Alta+Disponibilidade" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -22,14 +22,14 @@
 
 Sou desenvolvedor focado em **Engenharia de Software Back-End**, graduando em **Ciência e Tecnologia (BICT)** pela **Universidade Federal do Maranhão (UFMA)**. 
 
-Minha atuação é voltada para a concepção e implementação de **sistemas distribuídos, microsserviços orientados a eventos (EDA) e APIs RESTful de alta resiliência e segurança**. Tenho sólida vivência em fluxos assíncronos com mensageria (**RabbitMQ**), caching e controle de concorrência com **Redis**, modelagem relacional avançada com **PostgreSQL/Prisma**, e padrões rigorosos de qualidade com **TDD (Jest)**, Clean Architecture e princípios SOLID.
+Minha atuação é voltada para a concepção e implementação de **sistemas distribuídos, microsserviços desacoplados e orientados a eventos (EDA), pipelines RAG com busca vetorial e APIs RESTful de alta resiliência e segurança**. Tenho sólida vivência em fluxos assíncronos com mensageria (**RabbitMQ**), caching e controle de concorrência com **Redis**, bancos relacionais e vetoriais (**PostgreSQL / pgvector / Prisma**), e padrões rigorosos de qualidade com **TDD (Jest / Pytest)**, Clean Architecture e princípios SOLID.
 
 - 🎓 **Formação Acadêmica**: Ciência e Tecnologia (BICT) — UFMA
 - 🏆 **Formações & Especializações**:
   - **Oracle Next Education (ONE)** — Trilha Back-End com Java
   - **Oracle Next Education (ONE)** — Trilha de Inteligência Artificial & Engenharia de Prompts
   - **Formação Trilhas 2B** — Desenvolvimento de Software Back-End
-- 🎯 **Foco de Carreira**: Desenvolvimento Back-End (Node.js, TypeScript, Java / Spring Boot, Microsserviços e Arquiteturas Escaláveis em Nuvem).
+- 🎯 **Foco de Carreira**: Desenvolvimento Back-End (Node.js, TypeScript, Java / Spring Boot, Python / FastAPI, Microsserviços e Arquiteturas Escaláveis em Nuvem).
 
 ---
 
@@ -60,6 +60,31 @@ Minha atuação é voltada para a concepção e implementação de **sistemas di
       </p>
     </td>
     <td width="50%" valign="top">
+      <h3 align="left">🧠 <a href="https://github.com/Coelho-G-Dev/rag-servicos-publicos">RAG Serviços Públicos — Semantic Search & AI Microservices</a></h3>
+      <p>
+        Sistema distribuído de busca semântica e síntese fundamentada sobre serviços públicos, projetado em microsserviços desacoplados e pipeline RAG resiliente.
+      </p>
+      <ul>
+        <li><b>Busca Vetorial de Alta Performance:</b> Embeddings locais com <code>all-MiniLM-L6-v2</code> (384d) e indexação HNSW em <b>PostgreSQL + pgvector</b> (cosine similarity em sub-segundo).</li>
+        <li><b>Geração Fundamentada (Anti-Alucinação):</b> Orquestração de LLM com <b>Google Gemini</b> via injeção estrita de contexto, fontes auditáveis e modo fallback resiliente.</li>
+        <li><b>Microsserviços Desacoplados:</b> API Gateway público em <b>Node.js / Express / TypeScript</b> e AI Service em <b>Python 3.11 / FastAPI</b> com comunicação interna autenticada.</li>
+        <li><b>Observabilidade & Métricas:</b> Monitoramento com <b>Prometheus</b> (latência HTTP, consultas RAG, GC/event loop), logs estruturados em JSON (Pino) e <b>Swagger / OpenAPI</b>.</li>
+        <li><b>Infraestrutura & Qualidade:</b> Blueprint IaC para Render (<code>render.yaml</code>), multi-containers com Docker Compose e testes automatizados com <b>Pytest</b> e <b>Jest</b>.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Google%20Gemini-8E75C2?style=flat-square&logo=google&logoColor=white" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3 align="left">💰 <a href="https://github.com/Coelho-G-Dev/api-financeira-inteligente">API Financeira Inteligente</a></h3>
       <p>
         API robusta de controle orçamentário e inteligência financeira integrada a modelos de Inteligência Artificial Generativa.
@@ -78,8 +103,6 @@ Minha atuação é voltada para a concepção e implementação de **sistemas di
         <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" />
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3 align="left">🔎 <a href="https://github.com/Coelho-G-Dev/Desafio-05-Back-End">BuscaSUS</a></h3>
       <p>
@@ -96,7 +119,9 @@ Minha atuação é voltada para a concepção e implementação de **sistemas di
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
       </p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
       <h3 align="left">📘 <a href="https://github.com/Coelho-G-Dev/Planer-de-Estudos-">Planner de Estudos & Workflows</a></h3>
       <p>
         Ecossistema integrado de produtividade, rastreamento de métricas acadêmicas e automações de tarefas.
@@ -135,6 +160,7 @@ Minha atuação é voltada para a concepção e implementação de **sistemas di
       <td width="25%"><b>Frameworks & Arquitetura</b></td>
       <td>
         <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
         <img src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white" alt="Fastify" />
         <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
         <img src="https://img.shields.io/badge/Prisma%20ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
@@ -146,6 +172,7 @@ Minha atuação é voltada para a concepção e implementação de **sistemas di
       <td width="25%"><b>Bancos de Dados & Filas</b></td>
       <td>
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgvector" />
         <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
         <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
         <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
@@ -156,6 +183,8 @@ Minha atuação é voltada para a concepção e implementação de **sistemas di
       <td>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
         <img src="https://img.shields.io/badge/Jest%20(TDD)-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
+        <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
+        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
         <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
         <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
         <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
