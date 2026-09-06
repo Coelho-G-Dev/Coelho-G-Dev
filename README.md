@@ -1,16 +1,16 @@
 <div align="center">
 
 # 👨🏻‍💻 Gabriel Coelho Sousa
-### **Back-End Software Engineer**
+### **Desenvolvedor Back-End | Node.js • TypeScript • Java • Python**
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=620&lines=Back-End+Engineer+%7C+Node.js+%26+TypeScript;Microsservi%C3%A7os+%7C+RabbitMQ+%7C+Redis+%7C+PostgreSQL;Arquiteturas+RAG+%7C+FastAPI+%26+pgvector;Arquiteturas+Resilientes+%26+Event-Driven+(EDA);APIs+Escal%C3%A1veis%2C+TDD+%26+Alta+Disponibilidade" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=620&lines=Desenvolvedor+Back-End+%7C+Node.js+%26+TypeScript;Microsservi%C3%A7os+%7C+RabbitMQ+%7C+Redis+%7C+PostgreSQL;Arquiteturas+RAG+%7C+FastAPI+%26+pgvector;Testes+Automatizados+%26+TDD+%7C+Jest+%26+Pytest;C%C3%B3digo+Limpo%2C+Clean+Architecture+%26+APIs+REST" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel%20Coelho-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-coelho-7184a32a3)
-[![Portfolio](https://img.shields.io/badge/Portfolio-gabrielcoelho.dev-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-next-flax-seven.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portf%C3%B3lio-Online-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-next-flax-seven.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Coelho--G--Dev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Coelho-G-Dev)
 [![Email](https://img.shields.io/badge/Email-Contato%20Profissional-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielcoelho.contato@gmail.com)
 
@@ -22,7 +22,9 @@
 
 Sou desenvolvedor focado em **Engenharia de Software Back-End**, graduando em **Ciência e Tecnologia (BICT)** pela **Universidade Federal do Maranhão (UFMA)**. 
 
-Minha atuação é voltada para a concepção e implementação de **sistemas distribuídos, microsserviços desacoplados e orientados a eventos (EDA), pipelines RAG com busca vetorial e APIs RESTful de alta resiliência e segurança**. Tenho sólida vivência em fluxos assíncronos com mensageria (**RabbitMQ**), caching e controle de concorrência com **Redis**, bancos relacionais e vetoriais (**PostgreSQL / pgvector / Prisma**), e padrões rigorosos de qualidade com **TDD (Jest / Pytest)**, Clean Architecture e princípios SOLID.
+Dedico meus estudos e projetos à construção de **microsserviços, fluxos orientados a eventos (EDA), pipelines RAG com busca vetorial e APIs RESTful estruturadas e documentadas**. Desenvolvo projetos autorais aplicando na prática mensageria assíncrona com **RabbitMQ** (Topic Exchanges, filas dedicadas e DLQ), controle de concorrência e cache com **Redis**, bancos relacionais e vetoriais (**PostgreSQL / pgvector / Prisma**), e testes automatizados com **Jest e Pytest**, seguindo princípios de Clean Architecture e SOLID.
+
+Alio o aprendizado contínuo em tecnologia à experiência prévia liderando equipes e processos operacionais sob ritmo acelerado, trazendo senso de prioridade, responsabilidade e resiliência na resolução de problemas técnicos.
 
 - 🎓 **Formação Acadêmica**: Ciência e Tecnologia (BICT) — UFMA
 - 🏆 **Formações & Especializações**:
@@ -38,7 +40,7 @@ Minha atuação é voltada para a concepção e implementação de **sistemas di
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="left">🛡️ <a href="https://github.com/Coelho-G-Dev/auhthguard">AuthGuard — Enterprise Auth Microservice</a></h3>
+      <h3 align="left">🛡️ <a href="https://github.com/Coelho-G-Dev/authguard">AuthGuard — Enterprise Auth Microservice</a></h3>
       <p>
         Microsserviço de autenticação, identidade e autorização de padrão corporativo, desenhado com arquitetura limpa e alta resiliência.
       </p>
@@ -47,7 +49,7 @@ Minha atuação é voltada para a concepção e implementação de **sistemas di
         <li><b>Resiliência & Concorrência:</b> Rate limiting distribuído (Token Bucket Algorithm) e orquestração de 5 containers com Docker Compose.</li>
         <li><b>Event-Driven (EDA):</b> Publicação e consumo assíncrono de eventos com <b>RabbitMQ</b> (Topic Exchanges, filas dedicadas e Dead Letter Queues - DLQ).</li>
         <li><b>Rastreabilidade & Observabilidade:</b> Distributed Tracing com propagação de contexto padrão W3C, endpoints de saúde (<code>/health</code>, <code>/ready</code>) e métricas.</li>
-        <li><b>Qualidade:</b> 100% de aprovação em <b>89 testes automatizados</b> (Jest) com <b>>90% de cobertura de código</b>.</li>
+        <li><b>Qualidade:</b> 100% de aprovação em <b>94 testes automatizados (16 suites com Jest)</b> com <b>>90% de cobertura de código</b>.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
@@ -227,7 +229,7 @@ Minha atuação é voltada para a concepção e implementação de **sistemas di
 Estou sempre aberto a trocar ideias sobre **engenharia de software, arquitetura back-end, microsserviços e novas oportunidades profissionais**.
 
 - 💼 **LinkedIn**: [linkedin.com/in/gabriel-coelho-7184a32a3](https://www.linkedin.com/in/gabriel-coelho-7184a32a3)
-- 🌐 **Portfólio**: [gabrielcoelho.dev](https://portfolio-next-flax-seven.vercel.app/)
+- 🌐 **Portfólio**: [portfolio-next-flax-seven.vercel.app](https://portfolio-next-flax-seven.vercel.app/)
 - 💻 **GitHub**: [@Coelho-G-Dev](https://github.com/Coelho-G-Dev)
 - 📬 **E-mail**: [gabrielcoelho.contato@gmail.com](mailto:gabrielcoelho.contato@gmail.com)
 
