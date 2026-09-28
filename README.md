@@ -222,6 +222,12 @@ Alio o aprendizado contínuo em tecnologia à experiência prévia liderando equ
   </a>
 </div>
 
+<div align="center">
+  <a href="https://github.com/Coelho-G-Dev">
+    <img src="https://raw.githubusercontent.com/Coelho-G-Dev/Coelho-G-Dev/output/activity-graph.svg" width="95%" alt="Gabriel Coelho's Activity Graph" />
+  </a>
+</div>
+
 ---
 
 ### 🤝 Vamos Conversar?
