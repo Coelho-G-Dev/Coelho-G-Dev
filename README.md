@@ -240,7 +240,7 @@ Estou sempre aberto a trocar ideias sobre **engenharia de software, arquitetura 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-coelho-7184a32a3)
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-Acessar-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-next-flax-seven.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-Enviar%20Mensagem-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielbiellosousa@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielbiellosousa@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Seguir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Coelho-G-Dev)
 
 <br/><br/>
