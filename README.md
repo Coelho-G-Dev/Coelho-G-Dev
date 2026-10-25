@@ -10,9 +10,9 @@
 <br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel%20Coelho-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-coelho-7184a32a3)
-[![Portfolio](https://img.shields.io/badge/Portf%C3%B3lio-Online-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-next-flax-seven.vercel.app/)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-Online-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-next-flax-seven.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Coelho--G--Dev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Coelho-G-Dev)
-[![Email](https://img.shields.io/badge/Email-Contato%20Profissional-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielbiellosousa@gmail.com)
+[![E-mail](https://img.shields.io/badge/E--mail-Contato%20Profissional-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielbiellosousa@gmail.com)
 
 </div>
 
@@ -20,18 +20,91 @@
 
 ### 📌 Sobre Mim & Visão de Engenharia
 
-Sou desenvolvedor focado em **Engenharia de Software Back-End**, graduando em **Ciência e Tecnologia (BICT)** pela **Universidade Federal do Maranhão (UFMA)**. 
+Sou desenvolvedor focado em **Engenharia de Software Back-End**, graduando em **Ciência e Tecnologia (BICT)** pela **Universidade Federal do Maranhão (UFMA)**.
 
 Dedico meus estudos e projetos à construção de **microsserviços, fluxos orientados a eventos (EDA), pipelines RAG com busca vetorial e APIs RESTful estruturadas e documentadas**. Desenvolvo projetos autorais aplicando na prática mensageria assíncrona com **RabbitMQ** (Topic Exchanges, filas dedicadas e DLQ), controle de concorrência e cache com **Redis**, bancos relacionais e vetoriais (**PostgreSQL / pgvector / Prisma**), e testes automatizados com **Jest e Pytest**, seguindo princípios de Clean Architecture e SOLID.
 
 Alio o aprendizado contínuo em tecnologia à experiência prévia liderando equipes e processos operacionais sob ritmo acelerado, trazendo senso de prioridade, responsabilidade e resiliência na resolução de problemas técnicos.
 
-- 🎓 **Formação Acadêmica**: Ciência e Tecnologia (BICT) — UFMA.
+- 🎓 **Formação Acadêmica**: Ciência e Tecnologia (BICT) pela UFMA.
+- 🥇 **Conquista**: Campeão do **Hackathon Equatorial** (Desafio 9, 23/10/2026) com o [Cidade Energia](#-projeto-campeão-do-hackathon-equatorial).
 - 🏆 **Formações & Especializações**:
-  - **Oracle Next Education (ONE)** — Trilha Back-End com Java
-  - **Oracle Next Education (ONE)** — Trilha de Inteligência Artificial & Engenharia de Prompts
-  - **Formação Trilhas 2B** — Desenvolvimento de Software Back-End
+  - **Oracle Next Education (ONE)**: Trilha Back-End com Java
+  - **Oracle Next Education (ONE)**: Trilha de Inteligência Artificial & Engenharia de Prompts
+  - **Formação Trilhas 2B**: Desenvolvimento de Software Back-End
 - 🎯 **Foco de Carreira**: Desenvolvimento Back-End (Node.js, TypeScript, Java / Spring Boot, Python / FastAPI, Microsserviços e Arquiteturas Escaláveis em Nuvem).
+
+---
+
+### 🏆 Projeto Campeão do Hackathon Equatorial
+
+<div align="center">
+  <h2>⚡ Cidade Energia</h2>
+  <p><i>"Sua conta de luz é a sua primeira aula de energia."</i></p>
+  <img src="https://img.shields.io/badge/🏆_1º_Lugar-Hackathon_Equatorial_·_Desafio_9-FFD700?style=for-the-badge" alt="Campeão do Hackathon Equatorial" />
+  <br/><br/>
+  <img src="https://raw.githubusercontent.com/Coelho-G-Dev/Cidade-Energia-Back-End/master/docs/Foto_Campe%C3%B5s%20hacktoon.jpeg" width="70%" alt="Equipe campeã do Hackathon Equatorial no EQT Lab" />
+  <br/>
+  <sub>Premiação no <b>EQT Lab by Equatorial</b> em 23/10/2026</sub>
+</div>
+
+<br/>
+
+App educacional que transforma a conta de luz em ferramenta de aprendizado sobre energia para estudantes de **escolas públicas de São Luís (MA)**, com simulador de consumo e energia solar, trilhas de lições com quiz, missões práticas, mapa de pontos de coleta, ranking de bairros e escolas e um **tutor com IA (RAG)**. Desenvolvido em equipe com Alcides Casemiro e Gabriel Rodrigues.
+
+<p align="center">
+  <a href="https://cidade-energia.vercel.app"><img src="https://img.shields.io/badge/App-Cidade_Energia-F5B800?style=for-the-badge&logo=vercel&logoColor=black" alt="App em produção" /></a>
+  <a href="https://cidade-energia-back-end.vercel.app/api/docs"><img src="https://img.shields.io/badge/Swagger-Documentação_da_API-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger UI" /></a>
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="left">🚀 <a href="https://github.com/Coelho-G-Dev/Cidade-Energia-Back-End">Cidade Energia - Back-End (API)</a></h3>
+      <p>
+        API REST em Next.js (App Router) com Supabase, documentada em <b>OpenAPI 3.1 / Swagger</b> e em produção na Vercel.
+      </p>
+      <ul>
+        <li><b>Tutor com IA (RAG):</b> Respostas fundamentadas nas lições do app com <b>Gemini API</b>, embeddings de 768 dimensões e índice HNSW em <b>PostgreSQL + pgvector</b>.</li>
+        <li><b>Segurança & Privacidade:</b> Login anônimo para menores de idade, <b>RLS em todas as tabelas</b> e rate limiting persistido no banco com hash de IP.</li>
+        <li><b>Gamificação à prova de trapaça:</b> Pontos calculados só no servidor, com unicidade por evento, lições em ordem e rankings a partir de views agregadas.</li>
+        <li><b>Dados reais:</b> Simulador de economia e placas solares com constantes de fontes oficiais (ANEEL, MCTI, CRESESB) e irradiação solar diária via <b>NASA POWER</b> com cache e fallback.</li>
+        <li><b>Qualidade:</b> <b>302 testes automatizados com Vitest</b>, regras de negócio em funções puras, validação com <b>Zod</b> e erros padronizados.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
+        <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Google%20Gemini-8E75C2?style=flat-square&logo=google&logoColor=white" />
+        <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" />
+        <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="left">📱 <a href="https://github.com/Coelho-G-Dev/Cidade-Energia-Front-End">Cidade Energia - Front-End (PWA)</a></h3>
+      <p>
+        PWA em Next.js e React 19 que consome a API, pensado para celulares de estudantes e conexões instáveis.
+      </p>
+      <ul>
+        <li><b>Cliente único, dois modos:</b> API real e modo simulado com a mesma interface, permitindo rodar o app inteiro sem back-end em demonstrações.</li>
+        <li><b>Contrato espelhado:</b> Tipos e schemas <b>Zod</b> copiados do back-end, renovação automática de sessão no <code>401</code> e prévia do simulador com debounce e cancelamento.</li>
+        <li><b>Mapa interativo:</b> Pontos de coleta de eletrônicos de São Luís e ranking com <b>Leaflet + OpenStreetMap</b>.</li>
+        <li><b>Acessibilidade:</b> Contraste AA, foco visível, alvos de toque de 44 px, navegação completa por teclado e suporte a <code>prefers-reduced-motion</code>.</li>
+        <li><b>Qualidade:</b> <b>133 testes com Vitest e Testing Library</b>, service worker sem cache da API e deploy contínuo na Vercel.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white" />
+        <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" />
+        <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -40,7 +113,7 @@ Alio o aprendizado contínuo em tecnologia à experiência prévia liderando equ
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="left">🛡️ <a href="https://github.com/Coelho-G-Dev/authguard">AuthGuard — Enterprise Auth Microservice</a></h3>
+      <h3 align="left">🛡️ <a href="https://github.com/Coelho-G-Dev/authguard">AuthGuard - Enterprise Auth Microservice</a></h3>
       <p>
         Microsserviço de autenticação, identidade e autorização de padrão corporativo, desenhado com arquitetura limpa e alta resiliência.
       </p>
@@ -62,7 +135,7 @@ Alio o aprendizado contínuo em tecnologia à experiência prévia liderando equ
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="left">🧠 <a href="https://github.com/Coelho-G-Dev/rag-servicos-publicos">RAG Serviços Públicos — Semantic Search & AI Microservices</a></h3>
+      <h3 align="left">🧠 <a href="https://github.com/Coelho-G-Dev/rag-servicos-publicos">RAG Serviços Públicos - Semantic Search & AI Microservices</a></h3>
       <p>
         Sistema distribuído de busca semântica e síntese fundamentada sobre serviços públicos, projetado em microsserviços desacoplados e pipeline RAG resiliente.
       </p>
@@ -240,11 +313,11 @@ Estou sempre aberto a trocar ideias sobre **engenharia de software, arquitetura 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-coelho-7184a32a3)
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-Acessar-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-next-flax-seven.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-Contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielbiellosousa@gmail.com)
+[![E-mail](https://img.shields.io/badge/E--mail-Contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielbiellosousa@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Seguir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Coelho-G-Dev)
 
 <br/><br/>
 
 <sub>Construindo sistemas confiáveis com código limpo, segurança e alta performance. 🚀</sub>
 
-</div>
+</div>
