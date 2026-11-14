@@ -1,323 +1,68 @@
-<div align="center">
+<p align="right"><a href="README.pt-BR.md">Português</a></p>
 
-# 👨🏻‍💻 Gabriel Coelho Sousa
-### **Desenvolvedor Back-End | Node.js • TypeScript • Java • Python**
+<a href="https://portfolio-next-flax-seven.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cover-en-dark.svg"><img src="assets/cover-en-light.svg" width="100%" alt="Gabriel Coelho. Full-stack, back-end focused · São Luís, Brazil. Diagram: a message travels from Client to Gateway, RabbitMQ, Audit and PostgreSQL, with DLQ and RAG branches."></picture></a>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=620&lines=Desenvolvedor+Back-End+%7C+Node.js+%26+TypeScript;Microsservi%C3%A7os+%7C+RabbitMQ+%7C+Redis+%7C+PostgreSQL;Arquiteturas+RAG+%7C+FastAPI+%26+pgvector;Testes+Automatizados+%26+TDD+%7C+Jest+%26+Pytest;C%C3%B3digo+Limpo%2C+Clean+Architecture+%26+APIs+REST" alt="Typing SVG" />
-</a>
+<p align="center"><a href="#work"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-work-en-dark.svg"><img src="assets/nav-work-en-light.svg" width="33%" alt="Work"></picture></a><a href="#skills"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-skills-en-dark.svg"><img src="assets/nav-skills-en-light.svg" width="33%" alt="Skills"></picture></a><a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-contact-en-dark.svg"><img src="assets/nav-contact-en-light.svg" width="33%" alt="Contact"></picture></a></p>
 
-<br/><br/>
+<p>Full-stack developer, back-end focused. I study Science and Technology at UFMA and build REST APIs, queue-based services with RabbitMQ and Redis, and RAG search on PostgreSQL with pgvector: 435 automated tests in Cidade Energia, 94 in AuthGuard.</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel%20Coelho-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-coelho-7184a32a3)
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-Online-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-next-flax-seven.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Coelho--G--Dev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Coelho-G-Dev)
-[![E-mail](https://img.shields.io/badge/E--mail-Contato%20Profissional-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielbiellosousa@gmail.com)
+<a href="https://portfolio-next-flax-seven.vercel.app"><img src="assets/button-en.svg" width="100%" alt="See the full portfolio"></a>
 
-</div>
+## Work
 
----
+<a href="https://portfolio-next-flax-seven.vercel.app/#projetos"><img src="assets/featured-en.svg" width="100%" alt="1ST PLACE · EQUATORIAL HACKATHON · OCT 23, 2026. Cidade Energia. RAG tutor API · PWA · 435 tests · live"></a>
 
-### 📌 Sobre Mim & Visão de Engenharia
+<p><a href="https://cidade-energia.vercel.app">App</a> · <a href="https://cidade-energia-back-end.vercel.app/api/docs">API docs</a> · <a href="https://github.com/Coelho-G-Dev/Cidade-Energia-Back-End">Back-end</a> · <a href="https://github.com/Coelho-G-Dev/Cidade-Energia-Front-End">Front-end</a></p>
 
-Sou desenvolvedor focado em **Engenharia de Software Back-End**, graduando em **Ciência e Tecnologia (BICT)** pela **Universidade Federal do Maranhão (UFMA)**.
+<p>Built with Alcides Casemiro and Gabriel Rodrigues.</p>
 
-Dedico meus estudos e projetos à construção de **microsserviços, fluxos orientados a eventos (EDA), pipelines RAG com busca vetorial e APIs RESTful estruturadas e documentadas**. Desenvolvo projetos autorais aplicando na prática mensageria assíncrona com **RabbitMQ** (Topic Exchanges, filas dedicadas e DLQ), controle de concorrência e cache com **Redis**, bancos relacionais e vetoriais (**PostgreSQL / pgvector / Prisma**), e testes automatizados com **Jest e Pytest**, seguindo princípios de Clean Architecture e SOLID.
+<details>
+<summary><picture><img src="assets/door-backend-en.svg" width="94%" align="middle" alt="Back-end. APIs, queues and data that never get lost. 6 projects"></picture></summary>
+<ul>
+<li><strong>Cidade Energia</strong>: Serverless API on Next.js and Supabase: 22 routes validated with Zod, RLS on every table, 302 tests. <a href="https://github.com/Coelho-G-Dev/Cidade-Energia-Back-End">Repository</a> · <a href="https://portfolio-next-flax-seven.vercel.app/#porta-backend">in the portfolio</a></li>
+<li><strong>AuthGuard</strong>: Identity and permissions service: 1,400 req/s, p99 under 35 ms, RabbitMQ with a DLQ, 94 tests. <a href="https://github.com/Coelho-G-Dev/authguard">Repository</a> · <a href="https://portfolio-next-flax-seven.vercel.app/#porta-backend">in the portfolio</a></li>
+<li><strong>Guia Maranhão</strong>: Public services API for Maranhão: IBGE and Google Maps data in one place, with JWT auth. <a href="https://github.com/Coelho-G-Dev/Guia-Maranhao">Repository</a> · <a href="https://portfolio-next-flax-seven.vercel.app/#porta-backend">in the portfolio</a></li>
+<li><strong>BuscaSUS</strong>: Finds the nearest public health unit and maps the route, with a MongoDB 2dsphere index. <a href="https://github.com/Coelho-G-Dev/Desafio-05-Back-End">Repository</a> · <a href="https://portfolio-next-flax-seven.vercel.app/#porta-backend">in the portfolio</a></li>
+<li><strong>RAG Serviços Públicos</strong>: Two decoupled services: FastAPI runs the RAG and a Node.js service filters metadata, with the vectors in the same PostgreSQL. <a href="https://github.com/Coelho-G-Dev/rag-servicos-publicos">Repository</a> · <a href="https://portfolio-next-flax-seven.vercel.app/#porta-backend">in the portfolio</a></li>
+<li><strong>API Financeira Inteligente</strong>: ACID transactions on a PostgreSQL ledger, with AI-assisted auditing. <a href="https://github.com/Coelho-G-Dev/api-financeira-inteligente">Repository</a> · <a href="https://portfolio-next-flax-seven.vercel.app/#porta-backend">in the portfolio</a></li>
+</ul>
+</details>
 
-Alio o aprendizado contínuo em tecnologia à experiência prévia liderando equipes e processos operacionais sob ritmo acelerado, trazendo senso de prioridade, responsabilidade e resiliência na resolução de problemas técnicos.
+<details>
+<summary><picture><img src="assets/door-frontend-en.svg" width="94%" align="middle" alt="Front-end. Interfaces and PWAs that talk cleanly to the API. 2 projects"></picture></summary>
+<ul>
+<li><strong>Cidade Energia</strong>: Next.js 16 and React 19 PWA: solar simulator, quiz tracks, map and tutor. 133 tests, and a mock mode that runs without a back end. <a href="https://github.com/Coelho-G-Dev/Cidade-Energia-Front-End">Repository</a> · <a href="https://portfolio-next-flax-seven.vercel.app/#porta-frontend">in the portfolio</a></li>
+<li><strong>BuscaSUS</strong>: Mobile-first map interface: health units by radius and routes with Google Maps. <a href="https://github.com/Coelho-G-Dev/Busca-Sus/tree/main/frontend">Repository</a> · <a href="https://portfolio-next-flax-seven.vercel.app/#porta-frontend">in the portfolio</a></li>
+</ul>
+</details>
 
-- 🎓 **Formação Acadêmica**: Ciência e Tecnologia (BICT) pela UFMA.
-- 🥇 **Conquista**: Campeão do **Hackathon Equatorial** (Desafio 9, 23/10/2026) com o [Cidade Energia](#-projeto-campeão-do-hackathon-equatorial).
-- 🏆 **Formações & Especializações**:
-  - **Oracle Next Education (ONE)**: Trilha Back-End com Java
-  - **Oracle Next Education (ONE)**: Trilha de Inteligência Artificial & Engenharia de Prompts
-  - **Formação Trilhas 2B**: Desenvolvimento de Software Back-End
-- 🎯 **Foco de Carreira**: Desenvolvimento Back-End (Node.js, TypeScript, Java / Spring Boot, Python / FastAPI, Microsserviços e Arquiteturas Escaláveis em Nuvem).
+<details>
+<summary><picture><img src="assets/door-ia-en.svg" width="94%" align="middle" alt="AI. RAG that answers with sources. 3 projects"></picture></summary>
+<ul>
+<li><strong>RAG Serviços Públicos</strong>: Answers about public services that cite the source: HNSW vector search under 15 ms on 384d local embeddings. <a href="https://github.com/Coelho-G-Dev/rag-servicos-publicos">Repository</a> · <a href="https://portfolio-next-flax-seven.vercel.app/#porta-ia">in the portfolio</a></li>
+<li><strong>API Financeira Inteligente</strong>: Gemini flags anomalies off the posting path, without delaying any transaction. <a href="https://github.com/Coelho-G-Dev/api-financeira-inteligente">Repository</a> · <a href="https://portfolio-next-flax-seven.vercel.app/#porta-ia">in the portfolio</a></li>
+<li><strong>Cidade Energia</strong>: Energinho tutor: RAG with Gemini and pgvector, with a similarity threshold calibrated on real questions. <a href="https://github.com/Coelho-G-Dev/Cidade-Energia-Back-End">Repository</a> · <a href="https://portfolio-next-flax-seven.vercel.app/#porta-ia">in the portfolio</a></li>
+</ul>
+</details>
 
----
+## Skills
 
-### 🏆 Projeto Campeão do Hackathon Equatorial
+<ul>
+<li><strong>Back-end:</strong> Node.js · TypeScript · Python and FastAPI</li>
+<li><strong>Front-end:</strong> Next.js 16 and React 19 · React and maps · Accessibility · Mock mode</li>
+<li><strong>Messaging and caching:</strong> RabbitMQ · Redis</li>
+<li><strong>Databases and vector search:</strong> PostgreSQL · pgvector · Supabase · Prisma</li>
+<li><strong>Testing and delivery:</strong> Vitest and Jest · Playwright · Docker and Compose · GitHub Actions</li>
+</ul>
 
-<div align="center">
-  <h2>⚡ Cidade Energia</h2>
-  <p><i>"Sua conta de luz é a sua primeira aula de energia."</i></p>
-  <img src="https://img.shields.io/badge/🏆_1º_Lugar-Hackathon_Equatorial_·_Desafio_9-FFD700?style=for-the-badge" alt="Campeão do Hackathon Equatorial" />
-  <br/><br/>
-  <img src="https://raw.githubusercontent.com/Coelho-G-Dev/Cidade-Energia-Back-End/master/docs/Foto_Campe%C3%B5s%20hacktoon.jpeg" width="70%" alt="Equipe campeã do Hackathon Equatorial no EQT Lab" />
-  <br/>
-  <sub>Premiação no <b>EQT Lab by Equatorial</b> em 23/10/2026</sub>
-</div>
+<p><a href="https://portfolio-next-flax-seven.vercel.app/#sobre">Where each one shows up</a></p>
 
-<br/>
+## My year in tiles
 
-App educacional que transforma a conta de luz em ferramenta de aprendizado sobre energia para estudantes de **escolas públicas de São Luís (MA)**, com simulador de consumo e energia solar, trilhas de lições com quiz, missões práticas, mapa de pontos de coleta, ranking de bairros e escolas e um **tutor com IA (RAG)**. Desenvolvido em equipe com Alcides Casemiro e Gabriel Rodrigues.
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Coelho-G-Dev/Coelho-G-Dev/output/activity-en-dark.svg"><img src="https://raw.githubusercontent.com/Coelho-G-Dev/Coelho-G-Dev/output/activity-en-light.svg" width="100%" alt="One tile per week of contributions on GitHub over the last twelve months."></picture>
 
-<p align="center">
-  <a href="https://cidade-energia.vercel.app"><img src="https://img.shields.io/badge/App-Cidade_Energia-F5B800?style=for-the-badge&logo=vercel&logoColor=black" alt="App em produção" /></a>
-  <a href="https://cidade-energia-back-end.vercel.app/api/docs"><img src="https://img.shields.io/badge/Swagger-Documentação_da_API-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger UI" /></a>
-</p>
+<p>Each tile is a week of commits on GitHub.</p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🚀 <a href="https://github.com/Coelho-G-Dev/Cidade-Energia-Back-End">Cidade Energia - Back-End (API)</a></h3>
-      <p>
-        API REST em Next.js (App Router) com Supabase, documentada em <b>OpenAPI 3.1 / Swagger</b> e em produção na Vercel.
-      </p>
-      <ul>
-        <li><b>Tutor com IA (RAG):</b> Respostas fundamentadas nas lições do app com <b>Gemini API</b>, embeddings de 768 dimensões e índice HNSW em <b>PostgreSQL + pgvector</b>.</li>
-        <li><b>Segurança & Privacidade:</b> Login anônimo para menores de idade, <b>RLS em todas as tabelas</b> e rate limiting persistido no banco com hash de IP.</li>
-        <li><b>Gamificação à prova de trapaça:</b> Pontos calculados só no servidor, com unicidade por evento, lições em ordem e rankings a partir de views agregadas.</li>
-        <li><b>Dados reais:</b> Simulador de economia e placas solares com constantes de fontes oficiais (ANEEL, MCTI, CRESESB) e irradiação solar diária via <b>NASA POWER</b> com cache e fallback.</li>
-        <li><b>Qualidade:</b> <b>302 testes automatizados com Vitest</b>, regras de negócio em funções puras, validação com <b>Zod</b> e erros padronizados.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-        <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Google%20Gemini-8E75C2?style=flat-square&logo=google&logoColor=white" />
-        <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" />
-        <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="left">📱 <a href="https://github.com/Coelho-G-Dev/Cidade-Energia-Front-End">Cidade Energia - Front-End (PWA)</a></h3>
-      <p>
-        PWA em Next.js e React 19 que consome a API, pensado para celulares de estudantes e conexões instáveis.
-      </p>
-      <ul>
-        <li><b>Cliente único, dois modos:</b> API real e modo simulado com a mesma interface, permitindo rodar o app inteiro sem back-end em demonstrações.</li>
-        <li><b>Contrato espelhado:</b> Tipos e schemas <b>Zod</b> copiados do back-end, renovação automática de sessão no <code>401</code> e prévia do simulador com debounce e cancelamento.</li>
-        <li><b>Mapa interativo:</b> Pontos de coleta de eletrônicos de São Luís e ranking com <b>Leaflet + OpenStreetMap</b>.</li>
-        <li><b>Acessibilidade:</b> Contraste AA, foco visível, alvos de toque de 44 px, navegação completa por teclado e suporte a <code>prefers-reduced-motion</code>.</li>
-        <li><b>Qualidade:</b> <b>133 testes com Vitest e Testing Library</b>, service worker sem cache da API e deploy contínuo na Vercel.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white" />
-        <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" />
-        <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-</table>
+## Contact
 
----
-
-### 🚀 Projetos em Destaque
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🛡️ <a href="https://github.com/Coelho-G-Dev/authguard">AuthGuard - Enterprise Auth Microservice</a></h3>
-      <p>
-        Microsserviço de autenticação, identidade e autorização de padrão corporativo, desenhado com arquitetura limpa e alta resiliência.
-      </p>
-      <ul>
-        <li><b>Segurança Avançada:</b> Rotação contínua de JWT, autenticação multifator nativa (<b>2FA/TOTP</b> com QR Code), RBAC granular e revogação atômica de sessões com <b>Redis Token Blacklist</b>.</li>
-        <li><b>Resiliência & Concorrência:</b> Rate limiting distribuído (Token Bucket Algorithm) e orquestração de 5 containers com Docker Compose.</li>
-        <li><b>Event-Driven (EDA):</b> Publicação e consumo assíncrono de eventos com <b>RabbitMQ</b> (Topic Exchanges, filas dedicadas e Dead Letter Queues - DLQ).</li>
-        <li><b>Rastreabilidade & Observabilidade:</b> Distributed Tracing com propagação de contexto padrão W3C, endpoints de saúde (<code>/health</code>, <code>/ready</code>) e métricas.</li>
-        <li><b>Qualidade:</b> 100% de aprovação em <b>94 testes automatizados (16 suites com Jest)</b> com <b>>90% de cobertura de código</b>.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-        <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="left">🧠 <a href="https://github.com/Coelho-G-Dev/rag-servicos-publicos">RAG Serviços Públicos - Semantic Search & AI Microservices</a></h3>
-      <p>
-        Sistema distribuído de busca semântica e síntese fundamentada sobre serviços públicos, projetado em microsserviços desacoplados e pipeline RAG resiliente.
-      </p>
-      <ul>
-        <li><b>Busca Vetorial de Alta Performance:</b> Embeddings locais com <code>all-MiniLM-L6-v2</code> (384d) e indexação HNSW em <b>PostgreSQL + pgvector</b> (cosine similarity em sub-segundo).</li>
-        <li><b>Geração Fundamentada (Anti-Alucinação):</b> Orquestração de LLM com <b>Google Gemini</b> via injeção estrita de contexto, fontes auditáveis e modo fallback resiliente.</li>
-        <li><b>Microsserviços Desacoplados:</b> API Gateway público em <b>Node.js / Express / TypeScript</b> e AI Service em <b>Python 3.11 / FastAPI</b> com comunicação interna autenticada.</li>
-        <li><b>Observabilidade & Métricas:</b> Monitoramento com <b>Prometheus</b> (latência HTTP, consultas RAG, GC/event loop), logs estruturados em JSON (Pino) e <b>Swagger / OpenAPI</b>.</li>
-        <li><b>Infraestrutura & Qualidade:</b> Blueprint IaC para Render (<code>render.yaml</code>), multi-containers com Docker Compose e testes automatizados com <b>Pytest</b> e <b>Jest</b>.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Google%20Gemini-8E75C2?style=flat-square&logo=google&logoColor=white" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">💰 <a href="https://github.com/Coelho-G-Dev/api-financeira-inteligente">API Financeira Inteligente</a></h3>
-      <p>
-        API robusta de controle orçamentário e inteligência financeira integrada a modelos de Inteligência Artificial Generativa.
-      </p>
-      <ul>
-        <li><b>Auditoria com IA:</b> Avaliação inteligente de despesas e geração de insights de economia via <b>Google Gemini AI</b>.</li>
-        <li><b>Tarefas Automatizadas:</b> Agendamento distribuído de rotinas e processamento periódico com <b>Node-Cron</b>.</li>
-        <li><b>Segurança & Validação:</b> Autenticação stateless via JWT, hash criptográfico de senhas e sanitização rigorosa de payloads com <b>Zod</b>.</li>
-        <li><b>Persistência:</b> Modelagem relacional e queries eficientes para controle financeiro em tempo real.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
-        <img src="https://img.shields.io/badge/Google%20Gemini-8E75C2?style=flat-square&logo=google&logoColor=white" />
-        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
-        <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="left">🔎 <a href="https://github.com/Coelho-G-Dev/Desafio-05-Back-End">BuscaSUS</a></h3>
-      <p>
-        Plataforma de geolocalização e busca de serviços de saúde pública desenvolvida com impacto social.
-      </p>
-      <ul>
-        <li><b>Integrações Públicas:</b> Consumo e normalização de dados abertos governamentais.</li>
-        <li><b>Geolocalização:</b> Integração avançada com a <b>Google Maps API</b> para cálculo de proximidade e roteamento eficiente para unidades médicas.</li>
-        <li><b>Arquitetura:</b> Estrutura modular em Node.js com endpoints otimizados para alta concorrência de consultas.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/Google%20Maps%20API-4285F4?style=flat-square&logo=googlemaps&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3 align="left">📘 <a href="https://github.com/Coelho-G-Dev/Planer-de-Estudos-">Planner de Estudos & Workflows</a></h3>
-      <p>
-        Ecossistema integrado de produtividade, rastreamento de métricas acadêmicas e automações de tarefas.
-      </p>
-      <ul>
-        <li><b>Fluxos Automatizados:</b> Integração de APIs para sincronização contínua de rotinas e tarefas.</li>
-        <li><b>Organização Técnica:</b> Gestão estruturada de cronogramas e sprints pessoais de aprendizado de tecnologia.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Automation-FF6B6B?style=flat-square&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/Notion%20API-000000?style=flat-square&logo=notion&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-### 🛠️ Stack Tecnológica & Arsenal de Engenharia
-
-<table>
-  <tbody>
-    <tr>
-      <td width="25%"><b>Linguagens & Runtimes</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-      </td>
-    </tr>
-    <tr>
-      <td width="25%"><b>Frameworks & Arquitetura</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white" alt="Fastify" />
-        <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-        <img src="https://img.shields.io/badge/Prisma%20ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
-        <img src="https://img.shields.io/badge/RESTful%20APIs-02569B?style=for-the-badge&logo=googlecloud&logoColor=white" alt="RESTful APIs" />
-        <img src="https://img.shields.io/badge/Clean%20Architecture-00599C?style=for-the-badge&logo=blueprint&logoColor=white" alt="Clean Arch" />
-      </td>
-    </tr>
-    <tr>
-      <td width="25%"><b>Bancos de Dados & Filas</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-        <img src="https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgvector" />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-        <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-      </td>
-    </tr>
-    <tr>
-      <td width="25%"><b>DevOps, Testes & Infra</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-        <img src="https://img.shields.io/badge/Jest%20(TDD)-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
-        <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
-        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
-        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-        <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-      </td>
-    </tr>
-    <tr>
-      <td width="25%"><b>Interface & Ecossistema</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-        <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-      </td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### 📊 Estatísticas do GitHub
-
-<div align="center">
-  <a href="https://github.com/Coelho-G-Dev">
-    <img height="165em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Coelho-G-Dev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="Gabriel Coelho's GitHub Stats" />
-    <img height="165em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Coelho-G-Dev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/Coelho-G-Dev">
-    <img src="https://streak-stats.demolab.com/?user=Coelho-G-Dev&theme=tokyonight&hide_border=true" alt="Gabriel Coelho's GitHub Streak" />
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/Coelho-G-Dev">
-    <img src="https://raw.githubusercontent.com/Coelho-G-Dev/Coelho-G-Dev/output/activity-graph.svg" width="95%" alt="Gabriel Coelho's Activity Graph" />
-  </a>
-</div>
-
----
-
-<div align="center">
-
-### 🤝 Vamos Conversar?
-
-Estou sempre aberto a trocar ideias sobre **engenharia de software, arquitetura back-end, microsserviços e novas oportunidades profissionais**.
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-coelho-7184a32a3)
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-Acessar-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-next-flax-seven.vercel.app/)
-[![E-mail](https://img.shields.io/badge/E--mail-Contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielbiellosousa@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Seguir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Coelho-G-Dev)
-
-<br/><br/>
-
-<sub>Construindo sistemas confiáveis com código limpo, segurança e alta performance. 🚀</sub>
-
-</div>
+<p><a href="https://portfolio-next-flax-seven.vercel.app">Portfolio</a> · <a href="https://www.linkedin.com/in/gabriel-coelho-7184a32a3">LinkedIn</a> · <a href="mailto:gabrielbiellosousa@gmail.com">Email</a></p>
