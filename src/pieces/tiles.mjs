@@ -36,7 +36,9 @@ function motif(level, flip, current) {
   if (level === 4 && !current) parts.push(`<circle cx="50" cy="50" r="14" fill="${EXTRA.azulejoMadeira}"/>`);
   // The amber dot marks the current week, whatever its level.
   if (current) {
-    parts.push(`<circle cx="50" cy="50" r="16" fill="${PALETTE.ambar}" stroke="${PALETTE.ebano}" stroke-width="5"/>`);
+    parts.push(
+      `<circle cx="50" cy="50" r="16" fill="${PALETTE.ambar}" stroke="${PALETTE.ebano}" stroke-width="5"/>`,
+    );
   }
   return parts.join("");
 }

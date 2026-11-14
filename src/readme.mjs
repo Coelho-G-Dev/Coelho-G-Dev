@@ -30,7 +30,12 @@ const WORDS = {
 const ESCAPES = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
 export const escapeHtml = (text) => String(text).replace(/[&<>"']/g, (char) => ESCAPES[char]);
 
-const slug = (title) => title.trim().toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, "").replace(/\s+/g, "-");
+const slug = (title) =>
+  title
+    .trim()
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s-]/gu, "")
+    .replace(/\s+/g, "-");
 const link = (href, label) => `<a href="${escapeHtml(href)}">${escapeHtml(label)}</a>`;
 const img = (src, alt, extra = 'width="100%"') => `<img src="${src}" ${extra} alt="${escapeHtml(alt)}">`;
 const themed = (dark, light, alt, extra) =>
@@ -61,7 +66,10 @@ function door(door, locale, copy, words) {
   const alt = `${name}. ${line} ${countLabel(entries.length, locale)}`;
   const items = entries.map((entry) => {
     const project = PROJECTS[entry.id];
-    const links = [link(project[entry.link], words.repository), link(`${SITE}/#porta-${door}`, copy.inPortfolio)];
+    const links = [
+      link(project[entry.link], words.repository),
+      link(`${SITE}/#porta-${door}`, copy.inPortfolio),
+    ];
     return `<li><strong>${escapeHtml(project.title)}</strong>: ${escapeHtml(entry[locale])} ${links.join(" · ")}</li>`;
   });
   return [
@@ -76,7 +84,8 @@ function door(door, locale, copy, words) {
 
 function skills(locale, copy) {
   const rows = SKILLS[locale].map(
-    (group) => `<li><strong>${escapeHtml(group.name)}:</strong> ${group.items.map(escapeHtml).join(" · ")}</li>`,
+    (group) =>
+      `<li><strong>${escapeHtml(group.name)}:</strong> ${group.items.map(escapeHtml).join(" · ")}</li>`,
   );
   return ["<ul>", ...rows, "</ul>", "", `<p>${link(`${SITE}/#sobre`, copy.skillsMore)}</p>`].join("\n");
 }

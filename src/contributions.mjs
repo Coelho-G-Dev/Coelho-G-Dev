@@ -2,7 +2,9 @@
 
 export const CONTRIBUTIONS_URL = "https://github.com/users/Coelho-G-Dev/contributions";
 
-const DAY_RE = /data-date="(\d{4}-\d{2}-\d{2})"\s+id="([^"]+)"[^>]*data-level="(\d)"/g;
+// One calendar cell. Attributes are read one by one, so their order in the page does not matter.
+const CELL_RE = /<td\b[^>]*\sdata-date="\d{4}-\d{2}-\d{2}"[^>]*>/g;
+const attribute = (tag, name) => tag.match(new RegExp(`\\s${name}="([^"]*)"`))?.[1];
 const TIP_RE = /<tool-tip[^>]*for="([^"]+)"[^>]*>([^<]*)<\/tool-tip>/g;
 const TOTAL_RE = /([\d,.]+)\s+contributions?\s+in the last year/;
 const MIN_WEEKS = 26;
@@ -14,8 +16,12 @@ export function parseContributions(html) {
     counts.set(id, n ? Number(n[1]) : 0);
   }
 
-  const days = [...html.matchAll(DAY_RE)]
-    .map(([, date, id, level]) => ({ date, count: counts.get(id) ?? 0, level: Number(level) }))
+  const days = [...html.matchAll(CELL_RE)]
+    .map(([tag]) => ({
+      date: attribute(tag, "data-date"),
+      count: counts.get(attribute(tag, "id")) ?? 0,
+      level: Number(attribute(tag, "data-level") ?? 0),
+    }))
     .sort((a, b) => a.date.localeCompare(b.date));
 
   const weeks = [];

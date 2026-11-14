@@ -17,7 +17,9 @@ const tiles = (svg) => (svg.match(/class="t"/g) ?? []).length;
 const tempDir = () => mkdtempSync(join(tmpdir(), "activity-"));
 
 const fixture = readFileSync(new URL("./fixtures/contributions.html", import.meta.url), "utf8");
-const respond = (body, ok = true) => async () => ({ ok, status: ok ? 200 : 503, text: async () => body });
+const respond =
+  (body, ok = true) =>
+  async () => ({ ok, status: ok ? 200 : 503, text: async () => body });
 const DAY = 24 * 60 * 60 * 1000;
 
 describe("parseContributions", () => {
@@ -36,7 +38,9 @@ describe("parseContributions", () => {
   });
 
   it("usa o total que o GitHub escreve no cabeçalho", () => {
-    const header = Number(fixture.match(/([\d,.]+)\s+contributions?\s+in the last year/)[1].replace(/[,.]/g, ""));
+    const header = Number(
+      fixture.match(/([\d,.]+)\s+contributions?\s+in the last year/)[1].replace(/[,.]/g, ""),
+    );
     expect(parseContributions(fixture).total).toBe(header);
   });
 
@@ -87,7 +91,9 @@ describe("renderTiles", () => {
     const busy = renderTiles({ ...base, total: 0, weeks: weeksOf(52, 3, 5) });
     expect(tiles(empty)).toBe(52);
     expect(empty.length).toBeLessThan(busy.length);
-    expect(renderTiles({ ...base, total: 0, weeks: weeksOf(52) })).not.toBe(renderTiles({ ...base, total: 7, weeks: weeksOf(52) }));
+    expect(renderTiles({ ...base, total: 0, weeks: weeksOf(52) })).not.toBe(
+      renderTiles({ ...base, total: 7, weeks: weeksOf(52) }),
+    );
   });
 
   it("o âmbar aparece uma vez, na semana atual, em qualquer nível", () => {
@@ -117,8 +123,12 @@ describe("renderTiles", () => {
 
   it("muda com o tema e com o idioma", () => {
     const weeks = weeksOf(52, 2, 2);
-    expect(renderTiles({ ...base, weeks, theme: "light" })).not.toBe(renderTiles({ ...base, weeks, theme: "dark" }));
-    expect(renderTiles({ ...base, weeks, locale: "pt" })).not.toBe(renderTiles({ ...base, weeks, locale: "en" }));
+    expect(renderTiles({ ...base, weeks, theme: "light" })).not.toBe(
+      renderTiles({ ...base, weeks, theme: "dark" }),
+    );
+    expect(renderTiles({ ...base, weeks, locale: "pt" })).not.toBe(
+      renderTiles({ ...base, weeks, locale: "en" }),
+    );
   });
 });
 
@@ -150,5 +160,17 @@ describe("writeActivity e run", () => {
     const dir = tempDir();
     await run(dir, respond(fixture));
     expect(readdirSync(dir)).toHaveLength(4);
+  });
+});
+
+describe("parseContributions com o HTML reordenado", () => {
+  it("lê os mesmos dias quando o GitHub troca a ordem dos atributos", () => {
+    const reordered = fixture.replace(
+      /(<td[^>]*?)\s(data-date="[^"]+")\s(id="[^"]+")([^>]*?)\s(data-level="\d")/g,
+      "$1 $5 $3$4 $2",
+    );
+    expect(reordered).not.toBe(fixture);
+    expect(reordered).toMatch(/<td[^>]*data-level="\d"[^>]*id="[^"]+"[^>]*data-date=/);
+    expect(parseContributions(reordered)).toEqual(parseContributions(fixture));
   });
 });

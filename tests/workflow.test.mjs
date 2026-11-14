@@ -16,7 +16,9 @@ describe("workflow do perfil", () => {
   });
 
   it("só usa actions/checkout e actions/setup-node, presas por hash", () => {
-    const uses = yml().split("\n").filter((line) => /^\s*-?\s*uses:/.test(line));
+    const uses = yml()
+      .split("\n")
+      .filter((line) => /^\s*-?\s*uses:/.test(line));
     expect(uses).toHaveLength(2);
     for (const line of uses) {
       expect(line).toMatch(/^\s*-?\s*uses: actions\/(checkout|setup-node)@[0-9a-f]{40}\b/);
@@ -46,7 +48,9 @@ describe("workflow do perfil", () => {
   });
 
   it("só escreve no branch output", () => {
-    const pushes = yml().split("\n").filter((line) => line.includes("git push"));
+    const pushes = yml()
+      .split("\n")
+      .filter((line) => line.includes("git push"));
     expect(pushes).toHaveLength(1);
     expect(pushes[0].trim()).toMatch(/ output$/);
   });

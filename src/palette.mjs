@@ -29,17 +29,31 @@ export const UI_PAIRS = [
   { fg: "nogueira", bg: "ebano" },
   { fg: "nogueiraEscura", bg: "bordo" },
 ];
-export const EXTRA = { xadrezClaro: '#E7DDC9', azulejoBase: '#FAF6F0', azulejoMadeira: '#C4A882' };
-export const ALLOWED_HEX = new Set([...Object.values(PALETTE),...Object.values(DOOR_TONES).flatMap(Object.values),...Object.values(EXTRA)]);
-export const THEME = { dark: { bg:'ebano',text:'marfim',soft:'bordo',line:'nogueira' }, light: { bg:'marfim',text:'ebano',soft:'nogueiraEscura',line:'nogueira' } };
-export function assertTextPair(fg,bg) {
-  if (Object.hasOwn(DOOR_TONES,bg) ? fg === 'marfim' : TEXT_PAIRS.some(p=>p.fg===fg && p.bg===bg)) return;
-  throw new Error('Text pair not allowed: '+fg+' / '+bg);
+export const EXTRA = { xadrezClaro: "#E7DDC9", azulejoBase: "#FAF6F0", azulejoMadeira: "#C4A882" };
+export const ALLOWED_HEX = new Set([
+  ...Object.values(PALETTE),
+  ...Object.values(DOOR_TONES).flatMap(Object.values),
+  ...Object.values(EXTRA),
+]);
+export const THEME = {
+  dark: { bg: "ebano", text: "marfim", soft: "bordo", line: "nogueira" },
+  light: { bg: "marfim", text: "ebano", soft: "nogueiraEscura", line: "nogueira" },
+};
+export function assertTextPair(fg, bg) {
+  if (Object.hasOwn(DOOR_TONES, bg) ? fg === "marfim" : TEXT_PAIRS.some((p) => p.fg === fg && p.bg === bg))
+    return;
+  throw new Error("Text pair not allowed: " + fg + " / " + bg);
 }
-export function contrast(a,b) {
-  const lum = hex => {
-    const rgb = hex.slice(1).match(/../g).map(c=>parseInt(c,16)/255).map(c=>c<=0.04045?c/12.92:((c+0.055)/1.055)**2.4);
-    return rgb[0]*0.2126+rgb[1]*0.7152+rgb[2]*0.0722;
+export function contrast(a, b) {
+  const lum = (hex) => {
+    const rgb = hex
+      .slice(1)
+      .match(/../g)
+      .map((c) => parseInt(c, 16) / 255)
+      .map((c) => (c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4));
+    return rgb[0] * 0.2126 + rgb[1] * 0.7152 + rgb[2] * 0.0722;
   };
-  const x=lum(a),y=lum(b); return (Math.max(x,y)+0.05)/(Math.min(x,y)+0.05);
+  const x = lum(a),
+    y = lum(b);
+  return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05);
 }

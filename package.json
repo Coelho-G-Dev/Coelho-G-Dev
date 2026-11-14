@@ -5,9 +5,11 @@
   "scripts": {
     "test": "vitest run --maxWorkers=1",
     "build": "node src/build.mjs",
-    "activity": "node src/activity.mjs"
+    "activity": "node src/activity.mjs",
+    "format": "prettier --print-width 110 --write \"src/**/*.mjs\" \"tests/**/*.mjs\""
   },
   "devDependencies": {
+    "prettier": "3.10.1",
     "vitest": "^4.1.12"
   },
   "dependencies": {
